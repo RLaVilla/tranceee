@@ -89,7 +89,6 @@ body {
 
 
 
-
 .content {
     text-align: center;
     color: rgb(0, 0, 0);
@@ -105,8 +104,6 @@ body {
     z-index: 1; /* Luc added this */
     margin-top: 5vh;/* Luc added this */
     font-family: "Changa", sans-serif;
-    
-}
 
 .sub {
     font-size: 3vw;
@@ -124,7 +121,7 @@ body {
 }
 header {
     width: 100vw;
-    height: 12vh;
+    height: 15vh;
     background-color: #fff;
     color: #000;
     display: flex;
@@ -150,40 +147,41 @@ header {
     color: #fff;
     cursor: pointer;
     border-radius: 12px;
-    width: 9vw;
+    width: 12vw;
     height: auto;
     font-family: "Viga", sans-serif;
-    font-size: 1vw
+    font-size: 1.5vw
     
 }
 
 .center {
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     font-family: "Oswald", sans-serif;
+    width: 50%;
+    
 }
 
 .center h1 {
     margin: 0;
+    
 }
 
 .right {
-    width: 12vw;
-}
-
-.right a {
-    margin: 0 10px;
-    width: 100%;
+    
+    width: auto;
+    height: auto;
+    
 }
 
 .right a img {
-    height: 4vw;
+    height: auto;
     width: 4vw;
     
 }
 
 a.icon {
-    margin: 1vw;
+    margin: 0 1vw;
 
 }
 
@@ -219,9 +217,24 @@ footer {
     .rt {
         width: 90vw;
     }
+
+    .r {
+        margin-top: 5vh;
+        font-size: 4.75vw;
+    }
+    
+    .sub {
+        margin-top: 5vh;
+        font-size: 8vw;
+    }
     
 
     .center {
-        font-size: 3vw;
+        font-size: 5vw;
     }
+
+    header {
+        height: 10vh;
+    }
+}
 }
