@@ -205,8 +205,25 @@ footer {
     font-family: "Viga", sans-serif;
     font-size: 2vh;
     position: fixed;
+}
 
-    
+.blink {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically (if necessary) */
+    gap: 2vw; /* Adjust the gap between images as needed */
+    padding-bottom: 8vh;
+}
+
+.blink a {
+    display: inline-block;
+}
+
+.blink img {
+    display: block; /* Ensure the images are block elements */
+    width: 8vw; /* Adjust the width as needed */
+    height: auto;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
@@ -247,4 +264,5 @@ footer {
     .cont {
         margin-top: 0;
     }
+
 }
