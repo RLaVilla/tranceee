@@ -43,7 +43,7 @@ body {
     justify-content: center;
     gap: 5vw;
     width: 90vw;
-    margin: 5vh 0;
+    margin-top: 5vh;
     padding: 4vw 4vw 0vw 4vw;
 
 }
@@ -72,7 +72,7 @@ body {
 
 .ca {
     font-family: "Changa", sans-serif;
-    font-size: 26px;
+    font-size: 2.75vw;
     font-weight: 800;
     color: rgb(0, 0, 0);
     margin: 0;
@@ -104,12 +104,13 @@ body {
     z-index: 1; /* Luc added this */
     margin-top: 5vh;/* Luc added this */
     font-family: "Changa", sans-serif;
+}
 
 .sub {
     font-size: 3vw;
     margin: 0;
     font-family: "Viga", sans-serif;
-    padding-bottom: 6vh
+    padding-bottom: 6vh;
 }
 
 .r {
@@ -138,6 +139,11 @@ header {
 .left, .right {
     display: flex;
     align-items: center;
+    width: 16vw;
+}
+
+.left {
+    display: flex;
 }
 
 .left button {
@@ -155,10 +161,11 @@ header {
 }
 
 .center {
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Viga", sans-serif;
     width: 50%;
+    flex-grow: 0;
     
 }
 
@@ -168,13 +175,15 @@ header {
 }
 
 .right {
-    
+    display: flex;
+    align-items: center;
     width: auto;
     height: auto;
     
 }
 
 .right a img {
+    display: block;
     height: auto;
     width: 4vw;
     
@@ -211,7 +220,7 @@ footer {
     }
 
     .ca {
-        font-size: 4vw; /* Adjust font size for smaller screens */
+        font-size: 3.5vw; /* Adjust font size for smaller screens */
     }
 
     .rt {
@@ -219,22 +228,23 @@ footer {
     }
 
     .r {
-        margin-top: 5vh;
         font-size: 4.75vw;
     }
     
     .sub {
-        margin-top: 5vh;
         font-size: 8vw;
     }
     
 
     .center {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     header {
         height: 10vh;
     }
-}
+
+    .cont {
+        margin-top: 0;
+    }
 }
