@@ -213,6 +213,7 @@ footer {
     align-items: center; /* Center the images vertically (if necessary) */
     gap: 2vw; /* Adjust the gap between images as needed */
     padding-bottom: 8vh;
+    
 }
 
 .blink a {
@@ -250,6 +251,7 @@ footer {
     
     .sub {
         font-size: 8vw;
+        padding-bottom: 4vh;
     }
     
 
@@ -262,7 +264,10 @@ footer {
     }
 
     .cont {
-        margin-top: 0;
+        margin-top: 3vh;
     }
 
+    .blink {
+        
+    }
 }
