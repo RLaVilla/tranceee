@@ -193,6 +193,27 @@ a.icon {
 
 }
 
+.infosect {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+    gap: 5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    animation: pulse 1.5s infinite;
+}
+
+.bubble-text {
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: "Changa", sans-serif;
+}
+
 .dcont {
     width: 80%;
     margin: auto;
@@ -287,6 +308,7 @@ footer {
 
     .ca {
         font-size: 3.5vw; /* Adjust font size for smaller screens */
+        margin-bottom: 2vh;
     }
 
     .rt {
@@ -319,15 +341,9 @@ footer {
         padding-bottom: 4vh;
     }
 
-    .tokenomics-item p {
-        font-size: 6vw
+.infosect {
+        margin-top: 0;
+        margin-bottom: 2vh;
     }
-
-    .tokenomics-item h3 {
-    font-size: 7.5vw;
-    }
-
-    .tokenomics h2 {
-        font-size: 10vw;
-    }
+    
 }
