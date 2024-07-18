@@ -193,64 +193,52 @@ a.icon {
 
 }
 
-.tokenomics {
-    background-color: #0000008a;
-    padding: 0vh 2vw;
-    /* margin-top: 0; */
+.dcont {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.desc {
+    flex: 1;
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Viga", sans-serif;
+    font-size: 3vh;
+}
+
+.desc h2 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.repimg {
+    flex: 1;
+}
+
+.repimg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 5vh;
+    margin-bottom: 20px;
     width: 100%;
     text-align: center;
-    border-radius: 2vw;
-}
-
-.tokenomics h2 {
+    border-bottom: 2px solid #ddd; /* Optional: a border to visually separate the title */
+    padding-bottom: 10px;
     font-family: "Viga", sans-serif;
-    font-size: 4vw;
-    color: #000000;
-    margin-bottom: 3vh;
 }
 
-.tokenomics-container {
+.flex-cont {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3vw;
-    margin-bottom: 8vh;
-}
-
-.tokenomics-item {
-    /* background: #ffffff; */
-    background-image: url(./images/flag.jpg); /* Replace with the path to your image */
-    background-size: cover; /* Ensure the image covers the entire background */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74);
-    padding: 2vh 2vw;
-    width: 45vw;
-    max-width: 300px;
-    text-align: center;
-}
-
-.tokenomics-item h3 {
-    font-family: "Changa", sans-serif;
-    font-size: 3vw;
-    color: #000000;
-    margin-bottom: 1vh;
-}
-
-.tokenomics-item p {
-    font-family: "Jura", sans-serif;
-    font-weight: 600;
-    font-size: 2vw;
-    color: #000000;
-    margin: 0;
-}
-
-.section-divider {
-    border: 0;
-    height: 1px;
-    background: #000000;
-    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left; /* Align text to the left for the description */
+    flex-direction: column;
+    margin-bottom: 5vh;
 }
 
 footer {
