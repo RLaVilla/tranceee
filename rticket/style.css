@@ -330,4 +330,16 @@ footer {
     .blink {
         padding-bottom: 4vh;
     }
+
+    .tokenomics-item p {
+        font-size: 6vw
+    }
+
+    .tokenomics-item h3 {
+    font-size: 7vw;
+    }
+
+    .tokenomics h2 {
+        font-size: 10vw;
+    }
 }
