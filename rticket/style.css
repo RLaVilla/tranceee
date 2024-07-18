@@ -219,7 +219,7 @@ a.icon {
 
 .tokenomics-item {
     /* background: #ffffff; */
-    background-image: url('./images/flag.jpg'); /* Replace with the path to your image */
+    background-image: url(./images/flag.jpg); /* Replace with the path to your image */
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
