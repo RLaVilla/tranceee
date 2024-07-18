@@ -285,7 +285,7 @@ footer {
     justify-content: center; /* Center the images horizontally */
     align-items: center; /* Center the images vertically (if necessary) */
     gap: 2vw; /* Adjust the gap between images as needed */
-    padding-bottom: 6vh;
+    padding-bottom: 3vh;
     
 }
 
@@ -343,7 +343,7 @@ footer {
     }
 
     .blink {
-        padding-bottom: 4vh;
+        padding-bottom: 0;
     }
 
 .infosect {
