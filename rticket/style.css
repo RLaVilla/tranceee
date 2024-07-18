@@ -55,6 +55,7 @@ body {
      5px  1px 0 #000;
     margin: 0;
     padding: 0;
+    animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
